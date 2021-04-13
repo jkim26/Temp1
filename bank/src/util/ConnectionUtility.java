@@ -16,9 +16,9 @@ public class ConnectionUtility {
 			e.printStackTrace();
 		}
 		
-		String url = "jdbc:postgresql://localhost:5432/project1";
+		String url = "jdbc:postgresql://localhost:5432/public";
 		String username = "postgres"; //System.getenv("pguser"); 
-		String password = "password"; //System.getenv("pgpassword"); 
+		String password = "Vietnam94!"; //System.getenv("pgpassword"); 
 		
 		return DriverManager.getConnection(url, username, password);
 		
